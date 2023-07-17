@@ -1,0 +1,1 @@
+to process the data from collection we use streams concepts

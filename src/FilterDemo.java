@@ -29,5 +29,5 @@ public class FilterDemo {
         products.add(new Product(2,"xboX",15000));
         products.add(new Product(3,"ps3",10000));
         products.add(new Product(4,"laptopLenovo",12000));
-        products.stream().filter(product ->product.price<20000).forEach(product -> System.out.println(product.name));  }
+        products.stream().filter(product ->product.price<20000).forEach(product -> System.out.println(product.name));}
 }
